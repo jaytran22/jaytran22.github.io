@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Tran Phuoc Toan Porfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: "Raleway", sans-serif
+    }
+    
+    .w3-third img {
+        margin-bottom: -6px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+    
+    .w3-third img:hover {
+        opacity: 1
+    }
+    
+     :root {
+        --main-head-color: rgb(200, 192, 134)
+    }
+    
+    h4 {
+        color: var(--main-head-color);
+        font-size: 20px;
+    }
+</style>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-bar-block w3-animate-left w3-text-black w3-collapse w3-top w3-left" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+        <h3 class="w3-padding-64 w3-center"><b>TRAN PHUOC TOAN &#174 <br>Jay Tran</b></h3>
+
+        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">MY PHOTOS</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
+        <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK EXPERIENCE</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+        <a class="w3-bar-item w3-button" href="tel:+0906384033">&#9742 0906384033</a>
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button "></a>
+
+
+
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+        <span class="w3-left w3-padding">TRAN PHUOC TOAN</span>
+        <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+    </header>
+
+
+    </header>
+
+
+
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+
+        <div class="w3-hide-large" style="margin-top:83px"></div>
+
+        <!-- Photo grid -->
+        <div class="w3-row">
+            <div class="w3-third">
+                <img src="https://scontent.fvca1-1.fna.fbcdn.net/v/t31.0-8/p843x403/16665134_1390759817663333_8711042314717259991_o.jpg?_nc_cat=108&_nc_sid=8bfeb9&_nc_oc=AQm-R-OLdcMn2RpexE6botNCpI9LF1oxA3q6wDb9CLPsopA5dI21bo5PfUlS00KcJnk&_nc_ht=scontent.fvca1-1.fna&_nc_tp=6&oh=055f4ba6eb68cf344a4526d324d13fcc&oe=5F323D27"
+                    style="width:100%" onclick="onClick(this)" alt="Jay in a suit">
+                <img src="https://scontent.fvca1-2.fna.fbcdn.net/v/t31.0-8/p843x403/15235815_1262278593844790_3488044005909008951_o.jpg?_nc_cat=107&_nc_sid=8bfeb9&_nc_oc=AQlBdiUaysb3p9ztDi5ENLbFFaD4YHMY2lIq-G0mpOuCyHw1K4RaHZjr3hQpGrO_oU4&_nc_ht=scontent.fvca1-2.fna&_nc_tp=6&oh=2319e825eb16190e693329240cda7092&oe=5F30F4DD"
+                    style="width:100%" onclick="onClick(this)" alt="Da Lat Wonderful Trip">
+
+            </div>
+
+            <div class="w3-third">
+                <img src="https://scontent.fvca1-1.fna.fbcdn.net/v/t1.0-9/45087179_2274001909339115_4815238911020236800_o.jpg?_nc_cat=102&_nc_sid=8bfeb9&_nc_oc=AQlsz9VM22UHya7NSP401zDlwC9HG34b2oyF4Zz3fAMzddvpYdjM3L2zGecI-PcrhwU&_nc_ht=scontent.fvca1-1.fna&oh=03b94ec3de301dc82b6dc5de6dc7e51e&oe=5F2FBC5D"
+                    style="width:100%" onclick="onClick(this)" alt="I hosted the Hallowen event at Speak Up">
+                <img src="https://scontent.fvca1-2.fna.fbcdn.net/v/t31.0-8/s1080x2048/27797545_1842371629168814_2947438317173558214_o.jpg?_nc_cat=109&_nc_sid=8bfeb9&_nc_oc=AQlYWtB1h4Fxg0LrzN8C4mAp4MmZszT-dc8nhZmHtNEpSuyfRGBKxrW8GcF51PjLyUs&_nc_ht=scontent.fvca1-2.fna&_nc_tp=7&oh=af62051b33860f75b3074175d62ac5d2&oe=5F3338A3"
+                    style="width:100%" onclick="onClick(this)" alt="Hang out with my close friends">
+                <img src="https://scontent.fvca1-1.fna.fbcdn.net/v/t1.0-9/18698515_1523836197689027_5524280068984909111_n.jpg?_nc_cat=105&_nc_sid=8bfeb9&_nc_oc=AQlhT0yqzqvjdjeZpgaGXZRzGP7ibo87VLcUBOTbU8MmbczOED0IJefjcVJXjjwz_iM&_nc_ht=scontent.fvca1-1.fna&oh=fbdb029a046bd8155687e606a9010187&oe=5F304078"
+                    style="width:100%; object-fit: cover" onclick="onClick(this)" alt="Chill time with my homie">
+
+            </div>
+
+            <div class="w3-third">
+                <img src="https://scontent.fvca1-2.fna.fbcdn.net/v/t1.0-9/18765912_1523836064355707_8433052781994170933_n.jpg?_nc_cat=100&_nc_sid=8bfeb9&_nc_oc=AQmzuPImMdHOQpe5M1fBLLeA55uvAHj6oQ2IyKDozuvPF-MQ3Fyk19I8MRhdFb4HEoU&_nc_ht=scontent.fvca1-2.fna&oh=4adc92dd60942f6a2107231709169f5d&oe=5F32FC97"
+                    style="width:100%" onclick="onClick(this)" alt="Sai Gon is my city">
+                <img src="https://scontent.fvca1-2.fna.fbcdn.net/v/t1.0-9/45005983_2274002472672392_5202307484064153600_o.jpg?_nc_cat=110&_nc_sid=8bfeb9&_nc_oc=AQkqX_PBMn7At3At8xad9SauvNqcEQubdKFPiOgtGJb08j9IeVO8eAloNTepau2UFHs&_nc_ht=scontent.fvca1-2.fna&oh=59c123c71186062de6280dd6e0b6b983&oe=5F325B25"
+                    style="width:100%" onclick="onClick(this)" alt="I was an MC for the Hallowen event">
+                <img src="https://scontent.fvca1-1.fna.fbcdn.net/v/t1.0-9/44932818_2274001992672440_4981717057503494144_o.jpg?_nc_cat=103&_nc_sid=8bfeb9&_nc_oc=AQmmQS1qyRzFPoWEajbuyD8ZTh7ZC9Tu-uWMvGfVjvUppPKkhX6UkybRQJcM9OC3zaQ&_nc_ht=scontent.fvca1-1.fna&oh=1e4e7bfb3d84d78e0f9fdfd1314d07b4&oe=5F30BEAE"
+                    style="width:100%" onclick="onClick(this)" alt="Students were having a great time">
+                <img src="https://scontent.fvca1-2.fna.fbcdn.net/v/t1.0-9/s1080x2048/52020786_2169252346722204_8268923741249994752_o.jpg?_nc_cat=110&_nc_sid=730e14&_nc_oc=AQmAdv9NLym2cHNpIVIRqHbHM-9v_EMSr2wyMdPcSG8xiD9NQqO7jDPtmYUDNaEVBWs&_nc_ht=scontent.fvca1-2.fna&_nc_tp=7&oh=1f9268dd1b5687c3c13d0ce54835d632&oe=5F31D70E"
+                    style="width:100%" onclick="onClick(this)" alt="My lovely co-workers at Speak Up">
+
+            </div>
+        </div>
+
+        <br><br><br><br><br><br>
+
+        <!-- Modal for full size images on click-->
+        <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+            <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption"></p>
+            </div>
+        </div>
+
+        <!-- About section -->
+        <div class=" w3-center  w3-padding-32" id="about" style="background-color: rgb(248, 245, 241);">
+            <h4 style="text-align: center;"><b>About Me</b></h4>
+
+            <div class="w3-content w3-justify" style="max-width:600px">
+
+                <p style="text-justify:inter-word">I am equipped with lots of valuable experience in Teaching, Customer Service,Speak Up and Wall Street English as well as Presentation, Leading, Organizing Events. Confident, Dynamic,Open-minded Fast-learning and Enthusiastic are the adjectives
+                    to describe myself . My advantages when coding is being a Tech nerd. I love to explore new technology because I believe that it can improve our life significantly. I have a Bachelor Degree in English from University of Finance and
+                    Marketing and now I'm learning Front End course taught by Mr Thinh at Nodric Coder.
+                </p>
+
+
+                <hr class="w3-opacity">
+                <h4 style="text-align: center;"><b>Technical skills</b></h4>
+                <p>English Language</p>
+                <div class="w3-light-grey w3-round-xlarge ">
+                    <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:85%">85%</div>
+                </div>
+                <p>Presentation and Leading</p>
+                <div class="w3-light-grey w3-round-xlarge ">
+                    <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:85%">85%</div>
+                </div>
+                <p>Design and Art</p>
+                <div class="w3-light-grey w3-round-xlarge ">
+                    <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:70%">70%</div>
+                </div>
+                <p>Front End Skill</p>
+                <div class="w3-light-grey w3-round-xlarge ">
+                    <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:80%">80%</div>
+                </div>
+
+
+                <hr class="w3-opacity">
+
+                <div class=" w3-center  w3-padding-32" id="work">
+                    <h4><b>Work Experience</b></h4>
+                    <style>
+                        p {
+                            text-align: left
+                        }
+                    </style>
+
+                    <p style="text-justify:inter-word"><b>From 8/2017 to 9/2019 Personal Teacher at Speak Up English center:</b></p>
+                    <p>
+                        &#9734 Specialized in English for commnunication <br> &#9734 Master in teaching various classes at Speak Up <br> &#9734 Lead many events and projects<br> &#9734 Consistently achieve Key Performance Indicator <br>
+                    </p>
+                    <p style="text-justify:inter-word"><b>From 2/2017- 7/2017 English Teacher at Aroma English center</b></p>
+
+                    <p>
+                        &#9734 Specialized in English for commnunication <br> &#9734 Master in teaching various classes at Aroma <br>
+                    </p>
+                    <p style="text-justify:inter-word"><b>From 8/2015-10/2016 Personal Tutor at Wall Street English center:</b></p>
+                    <p>
+                        &#9734 Consistently achieve KPI <br> &#9734 Participate and lead events <br> &#9734 Deliver good service to customers
+                    </p>
+                </div>
+
+
+                <!-- Contact section -->
+                <div class="w3-padding-32 " id="contact">
+                    <div class="w3-content" style="max-width:600px">
+                        <h4 class="w3-center"><b>Contact Me</b></h4>
+                        <p>I would like to be a part of your company. Please fill out the form if you want to recruit me :) I am looking foward to hearing from you.</p>
+                        <form action="/action_page.php" target="_blank">
+                            <div class="w3-section">
+                                <label>Name</label>
+                                <input class="w3-input w3-border" type="text" name="Name" required>
+                            </div>
+                            <div class="w3-section">
+                                <label>Email</label>
+                                <input class="w3-input w3-border" type="text" name="Email" required>
+                            </div>
+                            <div class="w3-section">
+                                <label>Message</label>
+                                <input class="w3-input w3-border" type="text" name="Message" required>
+                            </div>
+                            <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+                        </form>
+                    </div>
+
+
+                    <!-- Footer -->
+                    <footer class="w3-container w3-padding-32 w3-grey">
+                        <div class="w3-row-padding">
+
+
+
+                            <h3>ADDITIONAL INFO</h3>
+                            <a href="tel:+0906384033">&#9742 0906384033</a><br>
+                            <a href="mailto:phuoctoan.tran2212@gmail.com" style="width:70%;  font-size: 14px">
+                                &#9993  phuoctoan.tran2212@gmail.com</a> <br>
+                            <a href="https://goo.gl/maps/buvvKLjK8n1PeGwdA" style="width:70%;  font-size: 14px">&#8962 1G Number 1 Street, Ward 13 District 6, Ho Chi Minh city</a>
+
+
+
+                    </footer>
+
+
+
+                    <script>
+                        // Script to open and close sidebar
+                        function w3_open() {
+                            document.getElementById("mySidebar").style.display = "block";
+                            document.getElementById("myOverlay").style.display = "block";
+                        }
+
+                        function w3_close() {
+                            document.getElementById("mySidebar").style.display = "none";
+                            document.getElementById("myOverlay").style.display = "none";
+                        }
+
+                        // Modal Image Gallery
+                        function onClick(element) {
+                            document.getElementById("img01").src = element.src;
+                            document.getElementById("modal01").style.display = "block";
+                            var captionText = document.getElementById("caption");
+                            captionText.innerHTML = element.alt;
+                        }
+                    </script>
+
+
+</body>
+
+</html>

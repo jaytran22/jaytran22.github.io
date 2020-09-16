@@ -1,0 +1,57 @@
+<!DOCTYPE html lang="vi-VN">
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+
+ 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+
+<body>
+
+        <table  id="box">
+          <tr>
+            <td colspan="3">
+              <input id="result" type="text" value="0" disabled></input>
+              <td><input type="button" id="del" value="C" onclick="clearAll()"></td>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="button" value="1" onclick="numberInput(this)"></td>
+            <td><input type="button" value="2" onclick="numberInput(this)"></td>
+            <td><input type="button" value="3" onclick="numberInput(this)"></td>
+            <td><input type="button" id="func" value="+" onclick="operatorInput(this)"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="4" onclick="numberInput(this)"></td>
+            <td><input type="button" value="5" onclick="numberInput(this)"></td>
+            <td><input type="button" value="6" onclick="numberInput(this)"></td>
+            <td><input type="button" id="func" value="-" onclick="operatorInput(this)"></td>
+          </tr>
+          <tr>
+            <td><input  type="button" value="7" onclick="numberInput(this)"></td>
+            <td><input  type="button" value="8" onclick="numberInput(this)"></td>
+            <td><input  type="button" value="9" onclick="numberInput(this)"></td>
+        
+            <td><input  type="button" id="func" value="*" onclick="operatorInput(this)"></td>
+          </tr>
+          <tr>
+            <td><input  type="button"  value="." onclick="numberInput(this)"></td>
+           
+            <td><input type="button" value="0" onclick="numberInput(this)"></td>
+            <td><input type="button" value="=" onclick="operatorInput(this)"></td>
+            <td><input type="button" id="func" value="/" onclick="operatorInput(this)"></td>
+          </tr>
+        </table>
+    
+    <script src="demo-js.js"></script>
+    
+</body>

@@ -1,61 +1,9 @@
-
-
-    input[type="button"] 
-    { 
-        width:65px;
-        height:55px;
-        border:none;
-        border-radius:30px;
-        font-size: 28px;
-        cursor:pointer;
-        border-top:4px solid transparent;
-    } 
-    input[type="text"] 
-    { 
-    background-color:white; 
-    border: solid black 26px; 
-    width:100% 
-    } 
-    
-    #func {
-        background-color:rgba(32, 84, 196, 0.794); 
-        color: black;}
-
-  
-    #del {
-        background-color:rgba(216, 10, 20, 0.794); 
-        color: black;
-    }
-    #result {
-    display:block;
-    font-family: sans-serif;
-    font-size: 26px;
-    width:280px;
-    height:60px;
-    
-    text-align: right;
-    border:0;
-    background:#3b3535;
-    color:#fff;
- 
-}
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 body
 {
-  background-image: url('a.jpg');
+  background-image: url('download.jfif');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 } 
-#box
-{
-background-color:rgba(137, 126, 112, 0.794);
-height:420px;
-width:360px;
-border-radius:10px;
-position: relative;;
-
-margin-top: 10%;
-margin-left: 40%;
-
-
-} 
+h1 {color: white}

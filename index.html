@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Tran Phuoc Toan Porfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-bar-block w3-animate-left w3-text-black w3-collapse w3-top w3-left" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+        <h3 class="w3-padding-64 w3-center"><b>TRAN PHUOC TOAN &#174 <br>Jay Tran</b></h3>
+        <a class="w3-bar-item w3-button" href="tel:0906384033">&#9742 0906384033</a>
+        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">MY PHOTOS</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
+        <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK EXPERIENCE</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT ME</a>
+
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button ">CLOSE MENU</a>
+
+
+
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+        <span class="w3-left w3-padding"><b>JAY'S MENU</b></span>
+        <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+    </header>
+
+
+    </header>
+
+
+
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+
+        <div class="w3-hide-large" style="margin-top:83px"></div>
+
+        <!-- Photo grid -->
+        <div class="w3-row">
+            <div class="w3-third">
+                <img src="hinhCV.jpg"
+                    style="width:100%" onclick="onClick(this)" alt="Hello! I am Jay Tran.">
+              
+
+            </div>
+
+            <div class="w3-third">
+                <img src="hinh1.jpg"
+                style="width:100%" onclick="onClick(this)" alt="They are my wonderful co-workers at Speak Up.">
+         
+            
+
+            </div>
+
+            <div class="w3-third">
+                <img src="hinh2.jpg"
+                    style="width:100%" onclick="onClick(this)" alt="I planned and hosted many wonderful events at Speak Up.">
+           
+               
+            </div>
+        </div>
+
+        
+
+       
+        <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+            <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption"></p>
+            </div>
+        </div>
+
+       
+        <div class=" w3-center w3-container w3-padding-32" id="about" style="background-color: rgb(248, 245, 241);">
+            <h4 style="text-align: center;"><b>ABOUT ME</b></h4>
+
+            <div class="w3-content w3-justify" style="max-width:600px">
+
+                <p style="text-justify:inter-word">Hello I am Jay Tran! My full name is Tran Phuoc Toan. I am working as a part-time English Teacher at the moment. Additionally, I am trying my best to learn Front end skills (HTML, CSS, Javascript and ReactJS) at Nordic Coder as well as doing some mini projects. Graduated from University of Finance of Finance and Marketing with a Bachelor Degree of English Business, I am well equipped with Advanced English knowledge and skills. After that, I have got the opportunity to sharpen my English Teaching skills during the time working at big English Centers such as Wall Street English and Speak Up. Therefore, I am confident that my English level and Presentation skill will be qualified to work in the IT environment. Moving forward in my career as a Front End coder, I would like to have the opportunity to work in a friendly & professional IT environment to learn and develop myself.
+                    I look forward to hearing from you.
+                </p>
+                
+
+
+                <hr class="w3-opacity">
+                <h4 style="text-align: center;"><b>PROFESSIONAL SKILLS</b></h4>
+                <p>English Language</p>
+                <div class="w3-light-grey w3-round-xlarge ">
+                    <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:95%">95%</div>
+                </div>
+                <p>Presentation and Leading</p>
+                <div class="w3-light-grey w3-round-xlarge ">
+                    <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:85%">85%</div>
+                </div>
+                <p>HTML & CSS</p>
+                <div class="w3-light-grey w3-round-xlarge ">
+                    <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:80%">80%</div>
+                </div>
+                <p>Javascript & ReactJS</p>
+                <div class="w3-light-grey w3-round-xlarge ">
+                    <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:70%">70%</div>
+                 
+                </div>
+                <br>
+                <h4 style="text-align: center;"><b>MY MINI PROJECTS</b></h4>
+                <img style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%; ;width:160px;height: 72px;" src="png.png"> 
+                   <img style="display: block;
+                   margin-left: auto;
+                   margin-right: auto;
+                   width: 50%; ;width:160px;height: 105px;" src="react.png">
+                <br>
+                <div class="w3-row">
+                    <div class="w3-third">
+                        <img src="1.png"
+                            style="width:100%" onclick="onClick(this)" alt="Cyberinfo">
+                            <button>Cyberinfo</button> <hr>
+                        <img src="2.png"
+                            style="width:100%" onclick="onClick(this)" alt="Chao Thap Cam">
+                            <button>Chao Thap Cam</button>
+        
+                    </div> 
+                    
+                    <div class="w3-third">
+                        <img src="5.png"
+                            style="width:100%" onclick="onClick(this)" alt="IronMan Clock">
+                            <button>IronMan Clock</button> <hr>
+                        <img src="6.png"
+                            style="width:100%" onclick="onClick(this)" alt="Doraemon Emotions">
+                            <button>Doraemon Emotions</button>
+                    </div>
+        
+                    <div class="w3-third">
+                        <img src="3.png"
+                            style="width:100%" onclick="onClick(this)" alt="Todo Lis">
+                            <button>Todo List</button> <hr>
+                        <img src="4.png"
+                            style="width:100%" onclick="onClick(this)" alt="PS4 Store">
+                            <button>PS4 Store</button>
+        
+                    </div>
+        
+                </div> <br>
+
+
+
+
+                <div class=" w3-center  w3-padding-32"  id="work">
+                    <h4><b>WORK EXPERIENCE</b></h4>
+                   
+
+                    <p style="text-justify:inter-word"><b>From 8/2017 to 9/2019 Personal Teacher at Speak Up English center:</b></p>
+                    <p>
+                        &#9734 Specialized in English for commnunication <br> &#9734 Master in teaching various classes at Speak Up <br> &#9734 Lead many events and projects<br> &#9734 Consistently achieve Key Performance Indicator <br>
+                    </p>
+                    <p style="text-justify:inter-word"><b>From 2/2017- 7/2017 English Teacher at Aroma English center</b></p>
+
+                    <p>
+                        &#9734 Specialized in English for commnunication <br> &#9734 Master in teaching various classes at Aroma <br>
+                    </p>
+                    <p style="text-justify:inter-word"><b>From 8/2015-10/2016 Personal Tutor at Wall Street English center:</b></p>
+                    <p>
+                        &#9734 Consistently achieve KPI <br> &#9734 Participate and lead events <br> &#9734 Deliver good service to customers
+                    </p>
+                </div>
+                <h4 class="w3-center" id="contact"><b>CONTACT ME</b></h4> 
+                            <h5><b>Additional information:</b></h5>
+                            <a href="tel:0906384033">&#9742 0906384033</a><br>
+                            <a href="mailto:phuoctoan.tran2212@gmail.com" style="width:70%;  ">
+                                &#9993  phuoctoan.tran2212@gmail.com</a> <br>
+                            <a href="https://goo.gl/maps/buvvKLjK8n1PeGwdA" style="width:70%;  ">&#8962 1G Number 1 Street, Ward 13 District 6, Ho Chi Minh city</a> <br>
+                         <a href="jaytran22.github.io" style="width:70%;">My Github: jaytran22.github.io</a>
+
+
+                    </footer>
+
+
+
+                    <script>
+                        // Script to open and close sidebar
+                        function w3_open() {
+                            document.getElementById("mySidebar").style.display = "block";
+                            document.getElementById("myOverlay").style.display = "block";
+                        }
+
+                        function w3_close() {
+                            document.getElementById("mySidebar").style.display = "none";
+                            document.getElementById("myOverlay").style.display = "none";
+                        }
+
+                        // Modal Image Gallery
+                        function onClick(element) {
+                            document.getElementById("img01").src = element.src;
+                            document.getElementById("modal01").style.display = "block";
+                            var captionText = document.getElementById("caption");
+                            captionText.innerHTML = element.alt;
+                        }
+                    </script>
+
+
+</body>
+
+</html>

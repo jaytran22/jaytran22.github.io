@@ -1,0 +1,30 @@
+
+body,
+    p {
+        font-family: "Raleway", sans-serif;
+        font-size: 17px;
+        text-align: left
+    }
+    
+    .w3-third img {
+        margin-bottom: -6px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+    
+    .w3-third img:hover {
+        opacity: 1
+    }
+    
+     :root {
+        --main-head-color: rgb(200, 192, 134)
+    }
+    
+    h4 {
+        color: var(--main-head-color);
+        font-size: 20px;
+    }
+    button{ color:rgb(5, 5, 5); 
+    font-size: 16px;
+    border:none;
+    border-radius:25px;}
